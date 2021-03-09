@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 //mongoose.connect("mongodb://localhost:27017/blogWebsiteDB",
-mongoose.connect("mongodb+srv://admin-natallia:test123@cluster0.o7jkp.mongodb.net/blogWebsiteDB", {
+mongoose.connect("mongodb+srv://admin-natallia:<PASSWORD>@cluster0.o7jkp.mongodb.net/blogWebsiteDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
